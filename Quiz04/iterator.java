@@ -1,12 +1,11 @@
-package ItteratorPattern.Problem1;
+package Quiz04;
 
-public interface Itterator {
+public interface iterator {
     //return true if we have elemnts in the itteratable
     //if there are elements in the itteratable then dont proceed
     boolean hasNext();
 
     // return the next element
-    int next();
+    String next();
     
 }
-
